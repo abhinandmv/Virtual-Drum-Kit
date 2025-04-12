@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Drum Kit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="title">Drum <span class="heartbeat">🥁</span> Kit</h1>
+    <p class="key-instruction">Click on drums or press keys to play!</p>
+    
+    <div class="visualizer">
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+      <div class="visualizer-bar"></div>
+    </div>
+    
+    <div class="set">
+      <button class="w drum" data-key="w" data-sound="sounds/tom-1.mp3">
+        <div class="key-hint">W</div>
+        <div class="key-label">Tom 1</div>
+      </button>
+      <button class="a drum" data-key="a" data-sound="sounds/tom-2.mp3">
+        <div class="key-hint">A</div>
+        <div class="key-label">Tom 2</div>
+      </button>
+      <button class="s drum" data-key="s" data-sound="sounds/tom-3.mp3">
+        <div class="key-hint">S</div>
+        <div class="key-label">Tom 3</div>
+      </button>
+      <button class="d drum" data-key="d" data-sound="sounds/tom-4.mp3">
+        <div class="key-hint">D</div>
+        <div class="key-label">Tom 4</div>
+      </button>
+      <button class="j drum" data-key="j" data-sound="sounds/snare.mp3">
+        <div class="key-hint">J</div>
+        <div class="key-label">Snare</div>
+      </button>
+      <button class="k drum" data-key="k" data-sound="sounds/crash.mp3">
+        <div class="key-hint">K</div>
+        <div class="key-label">Crash</div>
+      </button>
+      <button class="l drum" data-key="l" data-sound="sounds/kick-bass.mp3">
+        <div class="key-hint">L</div>
+        <div class="key-label">Kick</div>
+      </button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
