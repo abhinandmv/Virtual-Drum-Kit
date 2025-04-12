@@ -1,6 +1,7 @@
 # 🥁 Interactive Drum Kit
 
 A fun and modern browser-based drum kit built using **HTML**, **CSS**, and **JavaScript**. Play beats using your **keyboard or mouse**, enjoy **real-time audio visualizations**, and jam out with **smooth animations** and a **responsive UI** on any device!
+Demo:- https://abhinandmv.github.io/Virtual-Drum-Kit/
 
 ---
 
